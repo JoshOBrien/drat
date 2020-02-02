@@ -1,0 +1,6 @@
+Package: rasterDT
+Version: 0.3.1
+Depends: methods, raster, data.table
+Imports: fasterize, sf
+Suggests: rasterVis, rgdal
+License: GPL (>= 2)
