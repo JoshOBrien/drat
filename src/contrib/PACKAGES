@@ -1,3 +1,10 @@
+Package: exiftoolr
+Version: 0.1.2.2
+Imports: curl, jsonlite, zip
+License: GPL-2
+MD5sum: bdee1bb5fa515408b686c20a650ad604
+NeedsCompilation: no
+
 Package: rasterDT
 Version: 0.3.1
 Depends: methods, raster, data.table
