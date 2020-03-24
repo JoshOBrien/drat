@@ -1,11 +1,11 @@
 Package: BHSforay
-Version: 1.2.3
+Version: 1.3.0
 Depends: raster, sf, data.table
 Imports: rasterDT
 License: GPL (>= 2)
 
 Package: BHSRoCTGUI
-Version: 0.1.7
+Version: 0.1.9
 Depends: shiny, shinyjs, shinyalert, shinybusy, leaflet, sf, rgdal,
         raster, gdalUtilities, rhandsontable, data.table, fasterize,
         yaml, BHSforay
