@@ -28,3 +28,9 @@ Depends: shiny, shinyjs, shinyalert, shinybusy, shinyBS, leaflet, sf,
         fasterize, yaml, BHSforay, BHSkde
 Imports: curl
 License: GPL (>= 2)
+
+Package: PhotoLocator
+Version: 0.1
+Depends: shinyjs, shiny, shinyFiles, shinyWidgets, exiftoolr, stringi,
+        fs
+License: GPL (>= 2)
