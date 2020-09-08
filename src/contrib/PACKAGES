@@ -1,36 +1,4 @@
 Package: BHSforay
-Version: 1.2.3
-Depends: raster, sf, data.table
-Imports: rasterDT
-License: GPL (>= 2)
-MD5sum: fa8ff5c2776e4e9dd0ceb4725826438a
-NeedsCompilation: no
-
-Package: BHSforay
-Version: 1.3.0
-Depends: raster, sf, data.table
-Imports: rasterDT
-License: GPL (>= 2)
-MD5sum: 80853954e44ac7506347963c7f34f59c
-NeedsCompilation: no
-
-Package: BHSforay
-Version: 1.3.2
-Depends: raster, sf, data.table
-Imports: rasterDT
-License: GPL (>= 2)
-MD5sum: 0b030ca1c96564b16406cab6839634bd
-NeedsCompilation: no
-
-Package: BHSforay
-Version: 1.3.3
-Depends: raster, sf, data.table
-Imports: rasterDT
-License: GPL (>= 2)
-MD5sum: 11acfa59345bfaa7b92fef7768b5ceb0
-NeedsCompilation: no
-
-Package: BHSforay
 Version: 1.3.4
 Depends: raster, sf, data.table
 Imports: rasterDT
@@ -55,38 +23,9 @@ License: GPL (>= 2)
 MD5sum: 863c2596821cba48176546791981e07b
 NeedsCompilation: no
 
-Package: BHSRoCTGUI
-Version: 0.1.7
-Depends: shiny, shinyjs, shinyalert, shinybusy, leaflet, sf, rgdal,
-        raster, gdalUtilities, rhandsontable, data.table, fasterize,
-        yaml, BHSforay
-Imports: curl
-License: GPL (>= 2)
-MD5sum: b3058ddb635f0d208b68e91526820aa5
-NeedsCompilation: no
-
-Package: BHSRoCTGUI
-Version: 0.1.9
-Depends: shiny, shinyjs, shinyalert, shinybusy, leaflet, sf, rgdal,
-        raster, gdalUtilities, rhandsontable, data.table, fasterize,
-        yaml, BHSforay
-Imports: curl
-License: GPL (>= 2)
-MD5sum: 7ef87d3d90ddaf3e4dfac5b26ef9569b
-NeedsCompilation: no
-
 Package: exiftoolr
 Version: 0.1.2.2
 Imports: curl, jsonlite, zip
 License: GPL-2
 MD5sum: bdee1bb5fa515408b686c20a650ad604
-NeedsCompilation: no
-
-Package: rasterDT
-Version: 0.3.1
-Depends: methods, raster, data.table
-Imports: fasterize, sf
-Suggests: rasterVis, rgdal
-License: GPL (>= 2)
-MD5sum: c0d9091d1f6590e1cb41d3495d03b108
 NeedsCompilation: no
