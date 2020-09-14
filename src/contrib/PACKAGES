@@ -99,3 +99,10 @@ Imports: curl, jsonlite, zip
 License: GPL-2
 MD5sum: bdee1bb5fa515408b686c20a650ad604
 NeedsCompilation: no
+
+Package: exiftoolr
+Version: 0.1.4.1
+Imports: curl, jsonlite, zip, data.table
+License: GPL-2
+MD5sum: 1f6efcbe9d904ecbd8104746706fd747
+NeedsCompilation: no
