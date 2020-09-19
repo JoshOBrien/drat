@@ -81,3 +81,9 @@ Version: 0.1
 Depends: shinyjs, shiny, shinyFiles, shinyWidgets, exiftoolr, stringi,
         fs
 License: GPL (>= 2)
+
+Package: PhotoLocator
+Version: 0.2
+Depends: shinyjs, shiny, shinyFiles, shinyWidgets, exiftoolr, stringi,
+        fs
+License: GPL (>= 2)

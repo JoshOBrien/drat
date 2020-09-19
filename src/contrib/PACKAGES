@@ -106,3 +106,11 @@ Imports: curl, jsonlite, zip, data.table
 License: GPL-2
 MD5sum: 1f6efcbe9d904ecbd8104746706fd747
 NeedsCompilation: no
+
+Package: PhotoLocator
+Version: 0.2
+Depends: shinyjs, shiny, shinyFiles, shinyWidgets, exiftoolr, stringi,
+        fs
+License: GPL (>= 2)
+MD5sum: b2f9741456593336d4b2817b05729d3c
+NeedsCompilation: no
