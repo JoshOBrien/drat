@@ -1,3 +1,10 @@
+Package: BHSdataWinecup
+Version: 1.0.1
+Depends: R (>= 3.5.0), sf
+License: GPL (>= 2)
+MD5sum: 410846a271ab6091dd0a57c71508be08
+NeedsCompilation: no
+
 Package: BHSforay
 Version: 1.2.3
 Depends: raster, sf, data.table
@@ -55,9 +62,8 @@ NeedsCompilation: no
 
 Package: BHSRoCTGUI
 Version: 0.1.11
-Depends: shiny, shinyjs, shinyalert, shinybusy, shinyBS, leaflet, sf,
-        rgdal, raster, gdalUtilities, rhandsontable, data.table,
-        fasterize, yaml, BHSforay, BHSkde
+Depends: shiny, shinyjs, shinyalert, shinybusy, shinyBS, leaflet, sf, rgdal, raster, gdalUtilities,
+            rhandsontable, data.table, fasterize, yaml, BHSforay, BHSkde
 Imports: curl
 License: GPL (>= 2)
 MD5sum: 863c2596821cba48176546791981e07b
@@ -65,9 +71,8 @@ NeedsCompilation: no
 
 Package: BHSRoCTGUI
 Version: 0.1.7
-Depends: shiny, shinyjs, shinyalert, shinybusy, leaflet, sf, rgdal,
-        raster, gdalUtilities, rhandsontable, data.table, fasterize,
-        yaml, BHSforay
+Depends: shiny, shinyjs, shinyalert, shinybusy, leaflet, sf, rgdal, raster, gdalUtilities, rhandsontable,
+            data.table, fasterize, yaml, BHSforay
 Imports: curl
 License: GPL (>= 2)
 MD5sum: b3058ddb635f0d208b68e91526820aa5
@@ -75,9 +80,8 @@ NeedsCompilation: no
 
 Package: BHSRoCTGUI
 Version: 0.1.9
-Depends: shiny, shinyjs, shinyalert, shinybusy, leaflet, sf, rgdal,
-        raster, gdalUtilities, rhandsontable, data.table, fasterize,
-        yaml, BHSforay
+Depends: shiny, shinyjs, shinyalert, shinybusy, leaflet, sf, rgdal, raster, gdalUtilities, rhandsontable,
+            data.table, fasterize, yaml, BHSforay
 Imports: curl
 License: GPL (>= 2)
 MD5sum: 7ef87d3d90ddaf3e4dfac5b26ef9569b
@@ -85,12 +89,19 @@ NeedsCompilation: no
 
 Package: BHSRoCTGUI
 Version: 0.2.0
-Depends: shiny, shinyjs, shinyalert, shinybusy, shinyBS, leaflet, sf,
-        rgdal, raster, gdalUtilities, rhandsontable, data.table,
-        fasterize, yaml, BHSforay, BHSkde
+Depends: shiny, shinyjs, shinyalert, shinybusy, shinyBS, leaflet, sf, rgdal, raster, gdalUtilities,
+            rhandsontable, data.table, fasterize, yaml, BHSforay, BHSkde
 Imports: curl
 License: GPL (>= 2)
 MD5sum: 52a52d0fe8cba2b373bde63b0210c327
+NeedsCompilation: no
+
+Package: chhrTools
+Version: 1.0.1
+Depends: sf
+Imports: ctmm, spTools
+License: GPL (>= 2)
+MD5sum: 4b8f1ea36fc69f0133be7a30da71a953
 NeedsCompilation: no
 
 Package: exiftoolr
@@ -109,8 +120,16 @@ NeedsCompilation: no
 
 Package: PhotoLocator
 Version: 0.2
-Depends: shinyjs, shiny, shinyFiles, shinyWidgets, exiftoolr, stringi,
-        fs
+Depends: shinyjs, shiny, shinyFiles, shinyWidgets, exiftoolr, stringi, fs
 License: GPL (>= 2)
 MD5sum: b2f9741456593336d4b2817b05729d3c
+NeedsCompilation: no
+
+Package: spTools
+Version: 2.1.1
+Depends: sp, sf, rgeos, raster
+Imports: gdalUtilities, methods, maptools
+Suggests: knitr, rmarkdown, RColorBrewer, rasterVis, sfheaders, lattice
+License: GPL (>= 2)
+MD5sum: b90007fdbefb9e0e0f109d3c3b888e98
 NeedsCompilation: no

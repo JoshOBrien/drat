@@ -1,0 +1,17 @@
+Package: BHSdataWinecup
+Version: 1.0.1
+Depends: R (>= 3.5.0), sf
+License: GPL (>= 2)
+
+Package: chhrTools
+Version: 1.0.1
+Depends: sf
+Imports: ctmm, spTools
+License: GPL (>= 2)
+
+Package: spTools
+Version: 2.1.1
+Depends: sp, sf, rgeos, raster
+Imports: gdalUtilities, methods, maptools
+Suggests: knitr, rmarkdown, RColorBrewer, rasterVis, sfheaders, lattice
+License: GPL (>= 2)
