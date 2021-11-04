@@ -3,6 +3,14 @@ Version: 1.0.1
 Depends: R (>= 3.5.0), sf
 License: GPL (>= 2)
 
+Package: BHSRoCTGUI
+Version: 0.2.4
+Depends: shiny, shinyjs, shinyalert, shinybusy, shinyBS, leaflet, sf,
+        rgdal, raster, gdalUtilities, rhandsontable, data.table,
+        fasterize, yaml, BHSforay, BHSkde
+Imports: curl
+License: CC0
+
 Package: chhrTools
 Version: 1.0.1
 Depends: sf
