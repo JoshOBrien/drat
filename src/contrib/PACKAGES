@@ -107,7 +107,7 @@ Depends: shiny, shinyjs, shinyalert, shinybusy, shinyBS, leaflet, sf,
         fasterize, yaml, BHSforay, BHSkde
 Imports: curl
 License: CC0
-MD5sum: 11c606e481db9d6e4168dd54ce9ee367
+MD5sum: 3a688d57c6f19426b21dad80ec7696b8
 NeedsCompilation: no
 
 Package: chhrTools

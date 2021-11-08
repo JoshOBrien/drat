@@ -43,6 +43,14 @@ Depends: shiny, shinyjs, shinyalert, shinybusy, shinyBS, leaflet, sf,
 Imports: curl
 License: GPL (>= 2)
 
+Package: BHSRoCTGUI
+Version: 0.2.4
+Depends: shiny, shinyjs, shinyalert, shinybusy, shinyBS, leaflet, sf,
+        rgdal, raster, gdalUtilities, rhandsontable, data.table,
+        fasterize, yaml, BHSforay, BHSkde
+Imports: curl
+License: CC0
+
 Package: PhotoLocator
 Version: 0.1
 Depends: shinyjs, shiny, shinyFiles, shinyWidgets, exiftoolr, stringi,
