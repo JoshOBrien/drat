@@ -22,10 +22,22 @@ Depends: raster, sf, data.table
 Imports: rasterDT
 License: GPL (>= 2)
 
+Package: BHSforay
+Version: 1.3.7
+Depends: raster, sf, data.table
+Imports: rasterDT
+License: CC0
+
 Package: BHSkde
 Version: 1.15
 Depends: sp, maptools, rgdal, raster
 Imports: ks
+
+Package: BHSkde
+Version: 1.17
+Depends: sp, maptools, rgdal, raster
+Imports: ks
+License: CC0
 
 Package: BHSRoCTGUI
 Version: 0.1.11
