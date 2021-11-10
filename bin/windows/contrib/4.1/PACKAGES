@@ -10,9 +10,9 @@ Imports: rasterDT
 License: CC0
 
 Package: BHSkde
-Version: 1.17
+Version: 1.18
 Depends: sp, maptools, rgdal, raster
-Imports: ks
+Imports: ks, rgeos
 License: CC0
 
 Package: BHSRoCTGUI
