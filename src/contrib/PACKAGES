@@ -62,10 +62,10 @@ MD5sum: b2f9741456593336d4b2817b05729d3c
 NeedsCompilation: no
 
 Package: spTools
-Version: 2.1.1
+Version: 2.1.6
 Depends: sp, sf, rgeos, raster
-Imports: gdalUtilities, methods, maptools
+Imports: gdalUtilities, methods, maptools, fs, zip
 Suggests: knitr, rmarkdown, RColorBrewer, rasterVis, sfheaders, lattice
 License: GPL (>= 2)
-MD5sum: b90007fdbefb9e0e0f109d3c3b888e98
+MD5sum: 72347dfe38f762b18a5d1b949d689b90
 NeedsCompilation: no

@@ -30,8 +30,8 @@ Imports: ctmm, spTools
 License: GPL (>= 2)
 
 Package: spTools
-Version: 2.1.1
+Version: 2.1.6
 Depends: sp, sf, rgeos, raster
-Imports: gdalUtilities, methods, maptools
+Imports: gdalUtilities, methods, maptools, fs, zip
 Suggests: knitr, rmarkdown, RColorBrewer, rasterVis, sfheaders, lattice
 License: GPL (>= 2)
