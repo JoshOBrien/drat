@@ -39,6 +39,14 @@ License: GPL (>= 2)
 MD5sum: 4b8f1ea36fc69f0133be7a30da71a953
 NeedsCompilation: no
 
+Package: chhrTools
+Version: 1.0.6
+Depends: sf, raster, data.table, ctmm, amt
+Imports: spTools, stars
+License: GPL (>= 2)
+MD5sum: 626a3e94c7c263514c7b0b1b08c1db24
+NeedsCompilation: no
+
 Package: exiftoolr
 Version: 0.1.2.2
 Imports: curl, jsonlite, zip
@@ -68,4 +76,13 @@ Imports: gdalUtilities, methods, maptools, fs, zip
 Suggests: knitr, rmarkdown, RColorBrewer, rasterVis, sfheaders, lattice
 License: GPL (>= 2)
 MD5sum: 72347dfe38f762b18a5d1b949d689b90
+NeedsCompilation: no
+
+Package: spTools
+Version: 2.1.7
+Depends: sp, sf, rgeos, raster
+Imports: gdalUtilities, methods, maptools, fs, zip
+Suggests: knitr, rmarkdown, RColorBrewer, rasterVis, sfheaders, lattice
+License: GPL (>= 2)
+MD5sum: b1118f9cdd00673dafd577cee62f9bfe
 NeedsCompilation: no

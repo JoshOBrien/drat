@@ -29,8 +29,21 @@ Depends: sf
 Imports: ctmm, spTools
 License: GPL (>= 2)
 
+Package: chhrTools
+Version: 1.0.6
+Depends: sf, raster, data.table, ctmm, amt
+Imports: spTools, stars
+License: GPL (>= 2)
+
 Package: spTools
 Version: 2.1.6
+Depends: sp, sf, rgeos, raster
+Imports: gdalUtilities, methods, maptools, fs, zip
+Suggests: knitr, rmarkdown, RColorBrewer, rasterVis, sfheaders, lattice
+License: GPL (>= 2)
+
+Package: spTools
+Version: 2.1.7
 Depends: sp, sf, rgeos, raster
 Imports: gdalUtilities, methods, maptools, fs, zip
 Suggests: knitr, rmarkdown, RColorBrewer, rasterVis, sfheaders, lattice
