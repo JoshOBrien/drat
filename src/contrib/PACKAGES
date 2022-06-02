@@ -102,6 +102,15 @@ License: GPL (>= 2)
 MD5sum: bd4dc9b7afd4a3e85ecee3189a837d1f
 NeedsCompilation: no
 
+Package: spatialToolsJOB
+Version: 2.2.1
+Depends: sf, raster, stars, ggplot2
+Imports: gdalUtilities, methods, fs, zip
+Suggests: RColorBrewer, rasterVis, sfheaders
+License: GPL (>= 2)
+MD5sum: e7bede773507d242b1ea5f343aedc253
+NeedsCompilation: no
+
 Package: spTools
 Version: 2.1.6
 Depends: sp, sf, rgeos, raster

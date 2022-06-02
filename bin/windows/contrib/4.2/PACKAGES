@@ -28,6 +28,13 @@ Imports: gdalUtilities, methods, fs, zip
 Suggests: RColorBrewer, rasterVis, sfheaders
 License: GPL (>= 2)
 
+Package: spatialToolsJOB
+Version: 2.2.1
+Depends: sf, raster, stars, ggplot2
+Imports: gdalUtilities, methods, fs, zip
+Suggests: RColorBrewer, rasterVis, sfheaders
+License: GPL (>= 2)
+
 Package: spTools
 Version: 2.2.0
 Depends: sp, rgeos, raster
