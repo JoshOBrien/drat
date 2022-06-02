@@ -32,27 +32,11 @@ MD5sum: cff2ccc2d92d795aa4a146316ae1b0cf
 NeedsCompilation: no
 
 Package: chhrTools
-Version: 1.0.1
-Depends: sf
-Imports: ctmm, spTools
-License: GPL (>= 2)
-MD5sum: 4b8f1ea36fc69f0133be7a30da71a953
-NeedsCompilation: no
-
-Package: chhrTools
-Version: 1.0.6
+Version: 1.0.9
 Depends: sf, raster, data.table, ctmm, amt
-Imports: spTools, stars
+Imports: spatialToolsJOB, stars, tlocoh
 License: GPL (>= 2)
-MD5sum: 626a3e94c7c263514c7b0b1b08c1db24
-NeedsCompilation: no
-
-Package: chhrTools
-Version: 1.0.8
-Depends: sf, raster, data.table, ctmm, amt
-Imports: spatialTools, stars, tlocoh
-License: GPL (>= 2)
-MD5sum: 570ac86d7c9777851aa6f81c46d581e8
+MD5sum: 8b8b30e5bc28a1d0664462143bdbb8c0
 NeedsCompilation: no
 
 Package: dummyPkg
@@ -60,13 +44,6 @@ Version: 1.0
 Depends: sf
 License: GPL (>= 2)
 MD5sum: 8085ca88fabf4d0e4e519e6acdb22132
-NeedsCompilation: no
-
-Package: exiftoolr
-Version: 0.1.2.2
-Imports: curl, jsonlite, zip
-License: GPL-2
-MD5sum: bdee1bb5fa515408b686c20a650ad604
 NeedsCompilation: no
 
 Package: exiftoolr
@@ -84,49 +61,13 @@ License: GPL (>= 2)
 MD5sum: b2f9741456593336d4b2817b05729d3c
 NeedsCompilation: no
 
-Package: spatialTools
-Version: 2.2.0
-Depends: sf, raster, stars, ggplot2
-Imports: gdalUtilities, methods, fs, zip
-Suggests: RColorBrewer, rasterVis, sfheaders
-License: GPL (>= 2)
-MD5sum: 0c19e71259121f31724b16a606b35054
-NeedsCompilation: no
-
-Package: spatialTools
-Version: 2.2.1
-Depends: sf, raster, stars, ggplot2
-Imports: gdalUtilities, methods, fs, zip
-Suggests: RColorBrewer, rasterVis, sfheaders
-License: GPL (>= 2)
-MD5sum: bd4dc9b7afd4a3e85ecee3189a837d1f
-NeedsCompilation: no
-
 Package: spatialToolsJOB
 Version: 2.2.1
 Depends: sf, raster, stars, ggplot2
 Imports: gdalUtilities, methods, fs, zip
 Suggests: RColorBrewer, rasterVis, sfheaders
 License: GPL (>= 2)
-MD5sum: e7bede773507d242b1ea5f343aedc253
-NeedsCompilation: no
-
-Package: spTools
-Version: 2.1.6
-Depends: sp, sf, rgeos, raster
-Imports: gdalUtilities, methods, maptools, fs, zip
-Suggests: knitr, rmarkdown, RColorBrewer, rasterVis, sfheaders, lattice
-License: GPL (>= 2)
-MD5sum: 72347dfe38f762b18a5d1b949d689b90
-NeedsCompilation: no
-
-Package: spTools
-Version: 2.1.7
-Depends: sp, sf, rgeos, raster
-Imports: gdalUtilities, methods, maptools, fs, zip
-Suggests: knitr, rmarkdown, RColorBrewer, rasterVis, sfheaders, lattice
-License: GPL (>= 2)
-MD5sum: b1118f9cdd00673dafd577cee62f9bfe
+MD5sum: a0566b932d192489e54463eaf4068c5c
 NeedsCompilation: no
 
 Package: spTools

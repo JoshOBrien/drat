@@ -4,21 +4,14 @@ Depends: R (>= 3.5.0), sf
 License: GPL (>= 2)
 
 Package: chhrTools
-Version: 1.0.8
+Version: 1.0.9
 Depends: sf, raster, data.table, ctmm, amt
-Imports: spatialTools, stars, tlocoh
+Imports: spatialToolsJOB, stars, tlocoh
 License: GPL (>= 2)
 
 Package: dummyPkg
 Version: 1.0
 Depends: sf
-License: GPL (>= 2)
-
-Package: spatialTools
-Version: 2.2.0
-Depends: sf, raster, stars, ggplot2
-Imports: gdalUtilities, methods, fs, zip
-Suggests: RColorBrewer, rasterVis, sfheaders
 License: GPL (>= 2)
 
 Package: spatialTools
