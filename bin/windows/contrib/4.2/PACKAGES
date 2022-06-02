@@ -1,0 +1,6 @@
+Package: spatialTools
+Version: 2.2.0
+Depends: sf, raster, stars, ggplot2
+Imports: gdalUtilities, methods, fs, zip
+Suggests: RColorBrewer, rasterVis, sfheaders
+License: GPL (>= 2)
