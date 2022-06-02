@@ -2,7 +2,7 @@ Package: BHSdataWinecup
 Version: 1.0.1
 Depends: R (>= 3.5.0), sf
 License: GPL (>= 2)
-MD5sum: 410846a271ab6091dd0a57c71508be08
+MD5sum: f784508d9ba44d77ecfc9e1ab02cde2a
 NeedsCompilation: no
 
 Package: BHSforay
@@ -47,6 +47,14 @@ License: GPL (>= 2)
 MD5sum: 626a3e94c7c263514c7b0b1b08c1db24
 NeedsCompilation: no
 
+Package: chhrTools
+Version: 1.0.8
+Depends: sf, raster, data.table, ctmm, amt
+Imports: spatialTools, stars, tlocoh
+License: GPL (>= 2)
+MD5sum: 570ac86d7c9777851aa6f81c46d581e8
+NeedsCompilation: no
+
 Package: exiftoolr
 Version: 0.1.2.2
 Imports: curl, jsonlite, zip
@@ -78,6 +86,15 @@ License: GPL (>= 2)
 MD5sum: 0c19e71259121f31724b16a606b35054
 NeedsCompilation: no
 
+Package: spatialTools
+Version: 2.2.1
+Depends: sf, raster, stars, ggplot2
+Imports: gdalUtilities, methods, fs, zip
+Suggests: RColorBrewer, rasterVis, sfheaders
+License: GPL (>= 2)
+MD5sum: bd4dc9b7afd4a3e85ecee3189a837d1f
+NeedsCompilation: no
+
 Package: spTools
 Version: 2.1.6
 Depends: sp, sf, rgeos, raster
@@ -94,4 +111,13 @@ Imports: gdalUtilities, methods, maptools, fs, zip
 Suggests: knitr, rmarkdown, RColorBrewer, rasterVis, sfheaders, lattice
 License: GPL (>= 2)
 MD5sum: b1118f9cdd00673dafd577cee62f9bfe
+NeedsCompilation: no
+
+Package: spTools
+Version: 2.2.0
+Depends: sp, rgeos, raster
+Imports: gdalUtilities, methods, maptools
+Suggests: knitr, rmarkdown, RColorBrewer, rasterVis, lattice
+License: GPL (>= 2)
+MD5sum: b37c04042db2bd33b7d9c682dcdba26c
 NeedsCompilation: no

@@ -1,6 +1,31 @@
+Package: BHSdataWinecup
+Version: 1.0.1
+Depends: R (>= 3.5.0), sf
+License: GPL (>= 2)
+
+Package: chhrTools
+Version: 1.0.8
+Depends: sf, raster, data.table, ctmm, amt
+Imports: spatialTools, stars, tlocoh
+License: GPL (>= 2)
+
 Package: spatialTools
 Version: 2.2.0
 Depends: sf, raster, stars, ggplot2
 Imports: gdalUtilities, methods, fs, zip
 Suggests: RColorBrewer, rasterVis, sfheaders
+License: GPL (>= 2)
+
+Package: spatialTools
+Version: 2.2.1
+Depends: sf, raster, stars, ggplot2
+Imports: gdalUtilities, methods, fs, zip
+Suggests: RColorBrewer, rasterVis, sfheaders
+License: GPL (>= 2)
+
+Package: spTools
+Version: 2.2.0
+Depends: sp, rgeos, raster
+Imports: gdalUtilities, methods, maptools
+Suggests: knitr, rmarkdown, RColorBrewer, rasterVis, lattice
 License: GPL (>= 2)
