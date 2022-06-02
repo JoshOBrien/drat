@@ -9,6 +9,11 @@ Depends: sf, raster, data.table, ctmm, amt
 Imports: spatialTools, stars, tlocoh
 License: GPL (>= 2)
 
+Package: dummyPkg
+Version: 1.0
+Depends: sf
+License: GPL (>= 2)
+
 Package: spatialTools
 Version: 2.2.0
 Depends: sf, raster, stars, ggplot2

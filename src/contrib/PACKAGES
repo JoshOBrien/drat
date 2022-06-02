@@ -55,6 +55,13 @@ License: GPL (>= 2)
 MD5sum: 570ac86d7c9777851aa6f81c46d581e8
 NeedsCompilation: no
 
+Package: dummyPkg
+Version: 1.0
+Depends: sf
+License: GPL (>= 2)
+MD5sum: 8085ca88fabf4d0e4e519e6acdb22132
+NeedsCompilation: no
+
 Package: exiftoolr
 Version: 0.1.2.2
 Imports: curl, jsonlite, zip
